@@ -1,0 +1,144 @@
+{
+  "header": {
+    "admins": "Admins",
+    "workers": "Workers",
+    "products": "Products",
+    "orders": "Orders",
+    "lang": {
+      "ar": "AR"
+    },
+    "logout": "LogOut"
+  },
+  "loading": "Loading...",
+  "uploading": "Uploading...",
+  "removeModal": {
+    "title": "Are you sure you want remove",
+    "yesBtn": "Yes",
+    "noBtn": "No"
+  },
+  "admins": {
+    "title": "Admins",
+    "addBtn": "Add New Admin",
+    "removeBtn": "Remove",
+    "addAdminModal": {
+      "title": "Add New Admin",
+      "namePlaceholder": "username",
+      "pwdPlaceholder": "password",
+      "createBtn": "Create"
+    },
+    "noAdmins": "No Admins Found!"
+
+  },
+  "products": {
+    "table": {
+      "category": "Category",
+      "name": "Name",
+      "description": "Product Description",
+      "price": "Price",
+      "actions": "Actions"
+    },
+    "addBtn": "Add New Product",
+    "productImage": "product Image",
+    "editBtn": "Edit",
+    "removeBtn": "Remove",
+    "searchPlaceholder": "search products by name",
+    "nosearchResults": "No Results Found!",
+    "noProducts": "No Products Found",
+    "productModal": {
+      "addTitle": "Add New Product",
+      "productImage": "Product Image",
+      "editTitle": "Update Product",
+      "categoryPlaceholder": "Category",
+      "namePlaceholder": "Name",
+      "descriptionPlaceholder": "Product Description",
+      "pricePlaceholder": "Price",
+      "createBtn": "Create",
+      "updateBtn": "Update",
+      "uploadBtn": "Upload"
+    }
+    
+  },
+  "orders": {
+    "addOrderBtn": "Add Order",
+    "getBillBtn": "Generate Bill",
+    "billModal": {
+      "title": "Orders Bill for Table",
+      "header": {
+        "product": "Product",
+        "amount": "Amount",
+        "description": "Description"
+      },
+    "printBtn": "Print"
+
+    },
+    "optionsBtn": "options",
+    "optionsModal": {
+      "title": "Add Order Description",
+      "descriptionPlaceholder": "Description",
+      "addBtn": "Done"
+    },
+    "noCartOrders": "Empty Orders List",
+    "noOrders": "No Orders Found",
+    "table": {
+      "code": "Table",
+      "totalPrice": "Total Price(EGP)",
+      "actions": {
+        "title": "Actions",
+        "detailsBtn": "Details",
+        "payBtn": "Payment",
+        "addBtn": "Add More Orders"
+      }
+    },
+    "searchPlaceholder": "search orders by table code",
+    "paymentBill": {
+        "title": "Order Details For Table ",
+        "header": {
+          "product": "Product",
+          "price": "Price(EGP)",
+          "amount": "Amount",
+          "subTotal": "SubTotal(EGP)"
+        },
+        "totalPrice": "Total Price:",
+        "currency": "EGP",
+        "payBtn": "Pay"
+    }
+  },
+  "home": {
+    "sections": {
+      "inside": "Inside",
+      "outside": "Outside"
+    },
+    "addBtn": "Add New Table",
+    "modalTitle": "Add New Table",
+    "modalSelectOptions": {
+      "inside": "inside",
+      "outside": "outside"
+    },
+    "modalAddBtn": "Add Table",
+    "noInsideTables": "There Are No Inside Tables",
+    "noOutsideTables": "There Are No Outside Tables"
+  },
+  "workers": {
+    "addBtn": "Add New Worker",
+    "searchPlaceholder": "search workers by name",
+    "table": {
+      "name": "Name",
+      "job": "Job",
+      "phone": "Phone",
+      "joined": "Joined",
+      "actions": "Actions"
+    },
+    "workerModal": {
+      "addTitle": "Add New Worker",
+      "editTitle": "Edit Worker",
+      "namePlaceholder": "Name",
+      "jobPlaceholder": "Job",
+      "phonePlaceholder": "Phone Number",
+      "createBtn": "Create",
+      "updateBtn": "Update"
+    },
+    "noWorkers": "No Workers Found"
+  }
+
+
+}

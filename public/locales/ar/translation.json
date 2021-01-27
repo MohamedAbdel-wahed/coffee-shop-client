@@ -1,0 +1,141 @@
+{
+  "header": {
+    "admins": "المسئولين",
+    "workers": "العمال",
+    "products": "المنتجات",
+    "orders": "الطلبات",
+    "lang": {
+      "ar": "عربي"
+    },
+    "logout": "الخروج"
+  },
+  "loading": "...جاري التحميل",
+  "uploading": "...جاري اﻹضافة",
+  "removeModal": {
+    "title": "هل أنت متأكد أنك تريد حذف",
+    "yesBtn": "نعم",
+    "noBtn": "لا"
+  },
+  "admins": {
+    "title": "المسئولين",
+    "addBtn": "إضافة مسئول جديد",
+    "removeBtn": "حذف",
+    "addAdminModal": {
+      "title": "إضافة مسئول جديد",
+      "namePlaceholder": "اسم المستخدم",
+      "pwdPlaceholder": "كلمة السر",
+      "createBtn": "إضافة"
+    },
+    "noAdmins": "!لم يتم إضافة أي مسئول"
+
+  },
+  "products": {
+    "table": {
+      "category": "الفئة",
+      "name": "الاسم",
+      "description": "وصف المنتج",
+      "price": "السعر",
+      "actions": "تصرف"
+    },
+    "addBtn": "إضافة منتج جديد",
+    "productImage": "صورة المنتج",
+    "editBtn": "تعديل",
+    "removeBtn": "حذف",
+    "searchPlaceholder": "البحث عن المنتج بالاسم",
+    "nosearchResults": "!لا يوجد نتائج للبحث",
+    "noProducts": "لا يوجد منتجات حتي الآن",
+    "productModal": {
+      "addTitle": "إضافة منتج جديد",
+      "productImage": "صورة المنتج",
+      "editTitle": "تعديل المنتج",
+      "categoryPlaceholder": "الفئة",
+      "namePlaceholder": "الاسم",
+      "descriptionPlaceholder": "وصف المنتج",
+      "pricePlaceholder": "السعر",
+      "createBtn": "إضافة",
+      "updateBtn": "تحديث",
+      "uploadBtn": "إضافة"
+    }
+    
+  },
+  "orders": {
+    "addOrderBtn": "إضافة الطلب",
+    "getBillBtn": "استخراج فاتورة ",
+    "billModal": {
+      "title": "فاتورة الطلبات لترابيزة",
+      "header": {
+        "product": "المنتج",
+        "amount": "الكمية",
+        "description": "الوصف"
+      },
+      "printBtn": "طباعة"
+    },
+    "optionsBtn": "خيارات",
+    "optionsModal": {
+      "title": "إضافة وصف للطلب",
+      "descriptionPlaceholder": "الوصف",
+      "addBtn": "تم"
+    },
+    "noCartOrders": "قائمة الطلبات فارغة",
+    "noOrders": "لا يوجد طلبات",
+    "table": {
+      "code": "الترابيزة",
+      "totalPrice": "السعر الكلي(جنية)",
+      "actions": {
+        "title": "تصرف",
+        "detailsBtn": "تفاصيل الطلب",
+        "payBtn": "الدفع",
+        "addBtn": "إضافة طلب اخر"
+      }
+    },
+    "searchPlaceholder": "البحث عن الطلبات بكود الترابيزه",
+    "paymentBill": {
+      "title": "تفاصيل الطلب لترابيزة ",
+      "header": {
+        "product": "المنتج",
+        "price": "السعر(جنيه)",
+        "amount": "الكمية",
+        "subTotal": "المجموع(جنيه)"
+      },
+      "totalPrice": "السعر الكلي:",
+      "currency": "جنيه",
+      "payBtn": "ادفع"
+    }
+  },
+  "home": {
+    "sections": {
+      "inside": "بالداخل",
+      "outside": "بالخارج"
+    },
+    "addBtn": "إضافة ترابيزة جديدة",
+    "modalTitle": "أضف ترابيزة جديدة",
+    "modalSelectOptions": {
+      "inside": "داخل",
+      "outside": "خارج"
+    },
+    "modalAddBtn": "إضافة",
+    "noInsideTables": "لا يوجد ترابيزات بالداخل",
+    "noOutsideTables": "لا يوجد ترابيزات بالخارج"
+  },
+  "workers": {
+    "addBtn": "إضافة عامل جديد",
+    "searchPlaceholder": "البحث عن العمال بالاسم",
+   "table": {
+      "name": "الاسم",
+      "job": "الوظيفة",
+      "phone": "التليفون",
+      "joined": "تاريخ الانضمام",
+      "actions": "تصرف"
+    },
+    "workerModal": {
+      "addTitle": "إضافة عامل جديد",
+      "editTitle": "تعديل بيانات العامل",
+      "namePlaceholder": "الاسم",
+      "jobPlaceholder": "الوظيفة",
+      "phonePlaceholder": "رقم الهاتف",
+      "createBtn": "إنشاء",
+      "updateBtn": "تحديث"
+    },
+    "noWorkers": "لا يوجد عمال"
+  }
+}
