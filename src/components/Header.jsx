@@ -36,7 +36,7 @@ function Header() {
         <div className="px-3">
           <Link to="/">
             <img
-              src="/images/logo.jpg"
+              src="/images/logo.svg"
               className="w-20 object-cover rounded-full"
               alt="logo"
             />
