@@ -1,5 +1,6 @@
 module.exports = {
   purge: {
+    layers: ['components'],
     content: ['./src/*.jsx','./src/**/*.jsx', './public/index.html'],
     enabled: true
   },
@@ -11,4 +12,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  future: {
+    purgeLayersByDefault: true
+  }
 }
