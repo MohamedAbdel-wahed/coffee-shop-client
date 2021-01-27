@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense } from 'react'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import ApolloServiceProvider from './ApolloServiceProvider'
 import ProtectedRoute from './utils/protectedRoute'
@@ -16,7 +16,6 @@ import NotFound from './pages/NotFound'
 
 
 function App() {
-
   const pathname= window.location.pathname
 
   return (

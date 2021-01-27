@@ -32,13 +32,14 @@ function Header() {
 
   return (
     <IconContext.Provider value={{ size: "1.5em" }}>
-      <div className="fixed top-0 w-full h-16 flex items-center px-4 bg-gray-700 text-white z-30 select-none">
-        <div className="px-3">
+      <div className={`fixed top-0 w-full h-16 flex items-center px-4 bg-gray-700 text-white z-30 select-none ${!user && 'hidden'}`}>
+        <div className="px-5">
           <Link to="/">
             <img
               src="/images/logo.svg"
-              className="w-20 object-cover rounded-full"
+              className="w-14 h-10 object-cover rounded-full"
               alt="logo"
+              title="Cafe"
             />
           </Link>
         </div>
